@@ -1,0 +1,504 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     18872,        496]
+NotebookOptionsPosition[     16900,        452]
+NotebookOutlinePosition[     17251,        467]
+CellTagsIndexPosition[     17208,        464]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Sin", "[", 
+     RowBox[{"a", " ", "x"}], "]"}], "/", "x"}], ",", " ", 
+   RowBox[{"x", "\[Rule]", "0"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.858836047721046*^9, 3.858836078307479*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"a765bf1a-9253-4945-ab9c-1072fe782eae"],
+
+Cell[BoxData["a"], "Output",
+ CellChangeTimes->{3.858836080439238*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"879e84a1-e213-4e86-93f7-5b64fb868c58"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Sin", "[", "x", "]"}], "/", "x"}], ",", " ", 
+   RowBox[{"x", "\[Rule]", "0"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.858836094807745*^9, 3.858836111876705*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"6669eebb-d874-4e6a-960f-79628ca0614c"],
+
+Cell[BoxData["1"], "Output",
+ CellChangeTimes->{3.858836112835493*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"1a6bad20-dac8-4bf8-884e-07b60e507579"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"m", "/", 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"x", "^", "m"}]}], ")"}]}], " ", "-", " ", 
+    RowBox[{"n", "/", 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       RowBox[{"x", "^", "n"}]}], ")"}]}]}], ",", " ", 
+   RowBox[{"x", "\[Rule]", "1"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.858836152042137*^9, 3.8588361900716248`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"03e3954e-a42f-44d5-88e0-a1e6769e67be"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"m", "-", "n"}], "2"]], "Output",
+ CellChangeTimes->{3.858836206458027*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"91a2e80e-981e-4604-88a2-e0c1f52aa561"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{"Sin", "[", 
+    RowBox[{"(", 
+     RowBox[{"1", "/", "x"}], ")"}], "]"}], ",", " ", 
+   RowBox[{"x", "\[Rule]", "0"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8588362845717897`*^9, 3.858836299845553*^9}, {
+  3.858836332009362*^9, 3.8588363339216557`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"d8fcab20-093c-45ab-8f61-6a8b8e8aa3f9"],
+
+Cell[BoxData["Indeterminate"], "Output",
+ CellChangeTimes->{3.858836301259143*^9, 3.85883633800103*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"29b1566d-0450-4617-a800-4882404913c4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Information", "[", "Indeterminate", "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[6]:=",ExpressionUUID->"61f0e271-f6b6-4dac-ba0a-13021f2b6728"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = True, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Indeterminate",
+              ButtonNote->"paclet:ref/Indeterminate"],
+             "\"paclet:ref/Indeterminate\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"Indeterminate is a symbol that represents a \
+numerical quantity whose magnitude cannot be determined. \"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False, False, False, False, 
+                False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   
+                   TemplateBox[{
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/Indeterminate",
+                     "paclet:ref/Indeterminate", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"],"\"  \"",StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False],
+                    "\"  \"",TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/Indeterminate.\
+html"], None}, "http://reference.wolfram.com/language/ref/Indeterminate.html",
+                     "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", "Protected", "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`Indeterminate\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->6], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"],
+               ImageSizeCache->{10., {2., 8.}}], True->
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"],
+               ImageSizeCache->{10., {2., 8.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Indeterminate",
+              ButtonNote->"paclet:ref/Indeterminate"],
+             "\"paclet:ref/Indeterminate\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"Indeterminate is a symbol that represents a \
+numerical quantity whose magnitude cannot be determined. \"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[
+   Association[
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "Indeterminate is a symbol that represents a numerical quantity whose \
+magnitude cannot be determined. ", "Documentation" -> 
+    Association[
+     "Local" -> "paclet:ref/Indeterminate", "Web" -> 
+      "http://reference.wolfram.com/language/ref/Indeterminate.html"], 
+    "OwnValues" -> None, "UpValues" -> None, "DownValues" -> None, 
+    "SubValues" -> None, "DefaultValues" -> None, "NValues" -> None, 
+    "FormatValues" -> None, "Options" -> None, "Attributes" -> {Protected}, 
+    "FullName" -> "System`Indeterminate"], True]]], "Output",
+ CellChangeTimes->{3.858836341617827*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"262c2163-96ea-4f99-8639-a3f0785043d5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"n", "+", 
+      RowBox[{"Sqrt", "[", "n", "]"}]}], "]"}], "-", 
+    RowBox[{"Sqrt", "[", "n", "]"}]}], ",", " ", 
+   RowBox[{"n", "\[Rule]", "Infinity"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.858836409173078*^9, 3.858836443304926*^9}, {
+  3.858836474059058*^9, 3.858836482265398*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"338109ab-8003-431c-b4a0-fe4f089eab60"],
+
+Cell[BoxData[
+ FractionBox["1", "2"]], "Output",
+ CellChangeTimes->{3.8588364830405397`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"9cd8846b-5f87-4b1b-ad97-6d25640b1831"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"n", "!"}], "/", 
+    RowBox[{"n", "^", "n"}]}], ",", " ", 
+   RowBox[{"n", "\[Rule]", "Infinity"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.858836493005567*^9, 3.8588365103441143`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"f5ae2327-896f-4200-b4db-010e8b296155"],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.858836513905892*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"dda349fd-b30b-4dc2-b287-0a4996925a19"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Log", "[", "x", "]"}], "/", "x"}], ",", " ", 
+   RowBox[{"x", "\[Rule]", "0"}], ",", " ", 
+   RowBox[{"Direction", "\[Rule]", 
+    RowBox[{"-", "1"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8588366700269613`*^9, 3.858836686754428*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"af03eb21-dc00-4187-b34a-b326f275a9a8"],
+
+Cell[BoxData[
+ RowBox[{"-", "\[Infinity]"}]], "Output",
+ CellChangeTimes->{3.8588367066071453`*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"2fc3d0d9-2805-4066-a6c5-d4f693e40343"]
+}, Open  ]]
+},
+WindowSize->{917, 966},
+WindowMargins->{{Automatic, -1087}, {Automatic, 23}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (2019\:5e744\:67088\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 342, 8, 44, "Input",ExpressionUUID->"a765bf1a-9253-4945-ab9c-1072fe782eae"],
+Cell[925, 32, 148, 2, 34, "Output",ExpressionUUID->"879e84a1-e213-4e86-93f7-5b64fb868c58"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1110, 39, 316, 7, 44, "Input",ExpressionUUID->"6669eebb-d874-4e6a-960f-79628ca0614c"],
+Cell[1429, 48, 148, 2, 34, "Output",ExpressionUUID->"1a6bad20-dac8-4bf8-884e-07b60e507579"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1614, 55, 508, 14, 44, "Input",ExpressionUUID->"03e3954e-a42f-44d5-88e0-a1e6769e67be"],
+Cell[2125, 71, 191, 4, 48, "Output",ExpressionUUID->"91a2e80e-981e-4604-88a2-e0c1f52aa561"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2353, 80, 395, 9, 44, "Input",ExpressionUUID->"d8fcab20-093c-45ab-8f61-6a8b8e8aa3f9"],
+Cell[2751, 91, 181, 2, 34, "Output",ExpressionUUID->"29b1566d-0450-4617-a800-4882404913c4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2969, 98, 175, 3, 44, "Input",ExpressionUUID->"61f0e271-f6b6-4dac-ba0a-13021f2b6728"],
+Cell[3147, 103, 11924, 289, 164, "Output",ExpressionUUID->"262c2163-96ea-4f99-8639-a3f0785043d5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15108, 397, 467, 11, 44, "Input",ExpressionUUID->"338109ab-8003-431c-b4a0-fe4f089eab60"],
+Cell[15578, 410, 170, 3, 50, "Output",ExpressionUUID->"9cd8846b-5f87-4b1b-ad97-6d25640b1831"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15785, 418, 338, 8, 44, "Input",ExpressionUUID->"f5ae2327-896f-4200-b4db-010e8b296155"],
+Cell[16126, 428, 148, 2, 34, "Output",ExpressionUUID->"dda349fd-b30b-4dc2-b287-0a4996925a19"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16311, 435, 392, 9, 44, "Input",ExpressionUUID->"af03eb21-dc00-4187-b34a-b326f275a9a8"],
+Cell[16706, 446, 178, 3, 69, "Output",ExpressionUUID->"2fc3d0d9-2805-4066-a6c5-d4f693e40343"]
+}, Open  ]]
+}
+]
+*)
+
